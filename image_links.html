@@ -5,59 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Links</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: hsl(0, 97%, 50%);
-            color: #fff;
-            padding: 10px 20px;
-            text-align: center;
-        }
-
-        nav {
-            text-align: center;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        h2 {
-            color: #333;
-        }
-
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            grid-gap: 20px;
-        }
-
-        .gallery img {
-            width: 100%;
-            height: auto;
-        }
-
-        .menu ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .menu li {
-            margin-bottom: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="/newstyle.css">
+   
 </head>
 
 <body>
     <header>
-        <h1>Welcome to Image Links</h1>
+        <h1 style="background-color: red;">Welcome to Image Links</h1>
     </header>
 
     <nav>
@@ -70,42 +24,43 @@
         <h2>Home</h2>
         <p>Welcome to our webpage! Check out our linked images below.</p>
         <a href="https://example.com/technology">
-            <img src="technology.jpg" alt="Technology Image">
+            <img src="/images/Technology.avif" alt="Technology Image">
         </a>
     </section>
 
-    <section id="gallery">
+    <div class="gallery">
         <h2>Gallery</h2>
-        <div class="gallery">
-            <a href="https://example.com/nature1">
-                <img src="nature1.jpg" alt="Nature Image 1">
-            </a>
-            <a href="https://example.com/nature2">
-                <img src="nature2.jpg" alt="Nature Image 2">
-            </a>
-            <a href="https://example.com/nature3">
-                <img src="nature3.jpg" alt="Nature Image 3">
-            </a>
+        <div class="gallery-image">
+            
+                <img src="/images/nature 1.jpeg" alt="Nature Image 1">
+          
+            
+                <img src="/images/nature 2.jpeg" alt="Nature Image 2">
+           
+            
+                <img src="/images/nature 3.webp" alt="Nature Image 3">
+           
         </div>
-    </section>
+        </div>
+    
 
     <section id="menu" class="menu">
         <h2>Menu</h2>
         <ul>
             <li>
-                <a href="https://example.com/food1">
-                    <img src="food1.jpg" alt="Food 1">
-                </a> Pizza
+                <h1>Pizza</h1>
+                    <img src="/images/pizza.jpg" alt="Food 1">
+                
             </li>
             <li>
-                <a href="https://example.com/food2">
-                    <img src="food2.jpg" alt="Food 2">
-                </a> Salad
+                <h1>Salad</h1>
+                    <img src="/images/salad 1.jpg" alt="Food 2">
+                 
             </li>
             <li>
-                <a href="https://example.com/food3">
-                    <img src="food3.jpg" alt="Food 3">
-                </a> Burger
+                <h1> Burger</h1>
+                    <img src="/images/Burger.webp" alt="Food 3">
+               
             </li>
         </ul>
     </section>
